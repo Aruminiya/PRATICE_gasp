@@ -21,33 +21,27 @@ span {
   color: theme('colors.gray.500');
 }
 
-h1, h2, h3, h4, h5, h6, p, .h1, .h2, .p, .p-xs {
-  font-weight: 700;
+h1 {
+  font-size: 32px;
 }
 
-h1, .h1, .fs-1 {
+h2 {
+  font-size: 28px;
+}
+
+h3 {
   font-size: 24px;
 }
 
-h2, .h2, .fs-2 {
+h4 {
+  font-size: 20px;
+}
+
+h5 {
   font-size: 16px;
 }
 
-p, .p, .fs-3 {
-  font-size: 14px;
-}
-
-.p-xs, caption {
+h6 {
   font-size: 12px;
 }
-
-// 按鈕樣式
-// .UButton-outline{
-//   background-color: white;
-//   border: solid 1px $phototaxisBlue-500;
-//   color: $phototaxisBlue-500;
-//   &:hover{
-//     color: white;
-//   }
-// }
 
